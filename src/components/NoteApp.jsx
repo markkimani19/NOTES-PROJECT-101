@@ -7,7 +7,7 @@ const NoteApp = () => {
   // Add a new note
   const addNote = () => {
     if (noteText.trim() === '') {
-      alert('Please enter a note!');
+      alert('Please enter a note!')
       return;
     }
     setNotes([...notes, noteText]);
