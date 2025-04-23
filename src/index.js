@@ -11,7 +11,7 @@ root.render(
   <React.StrictMode>
     <App />
     <NoteApp />
-    <NoteForm />
+    {/* <NoteForm /> */}
   </React.StrictMode>
 );
 
